@@ -18,7 +18,7 @@ quick-sharun \
 	/usr/bin/ocrmypdf  \
 	/usr/bin/tesseract \
 	/usr/bin/gs        \
-	/usr/lib/libharfbuzz-subset.so*
+	/usr/lib/libharfbuzz*.so*
 
 # Additional changes can be done in between here
 
