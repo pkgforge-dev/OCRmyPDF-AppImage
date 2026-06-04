@@ -24,7 +24,7 @@ echo "---------------------------------------------------------------"
 tessdata_dir=/usr/share/tessdata
 tessdata_source=https://github.com/tesseract-ocr/tessdata_fast/raw/main
 rm -f "$tessdata_dir"/*.traineddata
-for lang in deu eng fin fra por rus spa; do
+for lang in ben deu eng fin fra hin ori por rus spa; do
 	echo "Downloading $lang.traineddata"
 	wget --retry-connrefused --tries=30 "$tessdata_source"/"$lang".traineddata -O "$tessdata_dir"/"$lang".traineddata
 done
