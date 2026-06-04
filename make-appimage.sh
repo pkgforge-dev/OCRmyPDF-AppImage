@@ -15,10 +15,11 @@ export MAIN_BIN=ocrmypdf
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/ocrmypdf    \
-	/usr/bin/tesseract   \
-	/usr/bin/gs          \
-	/usr/lib/libxslt.so* \
+	/usr/bin/ocrmypdf      \
+	/usr/bin/tesseract     \
+	/usr/bin/gs            \
+	/usr/lib/libxslt.so*   \
+	/usr/lib/libexslt.so*  \
 	/usr/lib/libharfbuzz*.so*
 
 # Additional changes can be done in between here
