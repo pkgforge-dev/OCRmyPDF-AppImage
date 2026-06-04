@@ -17,7 +17,8 @@ export MAIN_BIN=ocrmypdf
 quick-sharun \
 	/usr/bin/ocrmypdf  \
 	/usr/bin/tesseract \
-	/usr/bin/gs
+	/usr/bin/gs        \
+	/usr/lib/libharfbuzz-subset.so*
 
 # Additional changes can be done in between here
 
