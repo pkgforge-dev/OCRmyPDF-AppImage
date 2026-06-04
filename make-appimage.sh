@@ -14,7 +14,9 @@ export DEPLOY_PYTHON=1
 export MAIN_BIN=ocrmypdf
 
 # Deploy dependencies
-quick-sharun /usr/bin/ocrmypdf
+quick-sharun \
+	/usr/bin/ocrmypdf  \
+	/usr/bin/tesseract
 
 # Additional changes can be done in between here
 
